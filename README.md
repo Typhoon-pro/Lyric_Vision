@@ -23,3 +23,5 @@ Upload an MP3 file and LyricVision will automatically transcribe the lyrics usin
 
 ## 📁 Project Structure
 
+lyricvision/ ├── app.py # Main Flask application ├── models.py # SQLAlchemy database models ├── auth.py # Authentication routes (JWT) ├── customization.py # Customization & video history API ├── celery_app.py # Async task queue (Celery + Redis) ├── requirements.prod.txt # Python dependencies ├── Dockerfile.prod # Production Docker image ├── docker-compose.prod.yml # Full production stack ├── deploy.sh # One-click deploy script ├── .env.example # Environment variable template ├── nginx/ │ └── nginx.conf # Reverse proxy configuration ├── terraform/ │ └── main.tf # AWS infrastructure (IaC) ├── .github/ │ └── workflows/ │ └── deploy.yml # CI/CD pipeline └── templates/ ├── index.html # Landing page (upload UI) ├── dashboard.html # User dashboard └── login.html # Login/register page
+
